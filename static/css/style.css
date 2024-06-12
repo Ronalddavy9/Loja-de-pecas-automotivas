@@ -1,0 +1,33 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+}
+
+.card-img-top {
+    height: 300px; /* Altura desejada para a imagem */
+    object-fit: cover; /* Para garantir que a imagem cubra todo o espaço */
+}
+
+
+header {
+    border-radius: 10px;
+}
+
+.logo {
+    max-width: 200px; /* Define a largura máxima da logo */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 50%; /* Opcional: deixa a logo arredondada */
+}
+
+/* Aumenta o tamanho do campo de pesquisa */
+.input-group input.form-control {
+    width: 100%; /* Faz com que o campo de pesquisa ocupe toda a largura disponível */
+    min-width: 500px; /* Aumenta a largura mínima do campo de pesquisa */
+    max-width: 800px; /* Aumenta a largura máxima do campo de pesquisa */
+    padding: 15px; /* Ajusta o padding interno do campo */
+    height: 50px; /* Ajusta a altura do campo */
+}
